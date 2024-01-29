@@ -219,7 +219,7 @@ class DataTrainingArguments:
             "which is used during ``evaluate`` and ``predict``."
         },
     )
-    ignore_pad_token_for_loss: bool = field(
+    ignore_pzad_token_for_loss: bool = field(
         default=True,
         metadata={
             "help": "Whether to ignore the tokens corresponding to padded labels in the loss computation or not."

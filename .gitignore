@@ -6,3 +6,4 @@ data/data.txt
 *.csv
 unused/
 publish
+.DS_Store
